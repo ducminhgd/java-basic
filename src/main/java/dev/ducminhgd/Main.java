@@ -2,6 +2,7 @@ package dev.ducminhgd;
 
 import dev.ducminhgd.numeric.Fibo;
 import dev.ducminhgd.numeric.Sum;
+import dev.ducminhgd.string.Count;
 
 import java.util.Scanner;
 
@@ -16,5 +17,11 @@ public class Main {
         System.out.println("SumEvenToN: " + Sum.SumEvenToN(n));
 
         System.out.println("Fibo.ListToN: " + Fibo.ListToN(n));
+
+
+        System.out.print("Input a string: ");
+        String s = scanner.nextLine();
+        System.out.println("Count.CountVowels: " + Count.CountVowels(s));
+        System.out.println("Count.CountVowels2: " + Count.CountVowels2(s));
     }
 }
