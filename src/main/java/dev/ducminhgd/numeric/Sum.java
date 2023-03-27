@@ -1,4 +1,4 @@
-package dev.ducminhgd.calc;
+package dev.ducminhgd.numeric;
 
 public class Sum {
     public static int SumToN(int n) {

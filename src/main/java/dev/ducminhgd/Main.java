@@ -1,6 +1,7 @@
 package dev.ducminhgd;
 
-import dev.ducminhgd.calc.Sum;
+import dev.ducminhgd.numeric.Fibo;
+import dev.ducminhgd.numeric.Sum;
 
 import java.util.Scanner;
 
@@ -13,5 +14,7 @@ public class Main {
         System.out.println("SumToN: " + Sum.SumToN(n));
         System.out.println("SumOddToN: " + Sum.SumOddToN(n));
         System.out.println("SumEvenToN: " + Sum.SumEvenToN(n));
+
+        System.out.println("Fibo.ListToN: " + Fibo.ListToN(n));
     }
 }
