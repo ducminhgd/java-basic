@@ -2,7 +2,7 @@ package dev.ducminhgd.string;
 
 public class Count {
 
-    public static int CountVowels(String s) {
+    public static int vowels(String s) {
         int stringLength = s.length();
         if (stringLength == 0)
             return 0;
@@ -16,7 +16,7 @@ public class Count {
         return count;
     }
 
-    public static int CountVowels2(String s) {
+    public static int vowels2(String s) {
         int stringLength = s.length();
         if (stringLength == 0)
             return 0;

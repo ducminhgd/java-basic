@@ -1,9 +1,22 @@
 # Java Basic Dev Log
 
+## Day 3
+
+### Problems
+
+1. From Bing: Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14.
+2. From PoE: Write a program that takes a string as input and checks if the string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as forward.
+
+### What I learn
+
+- Remind me from using `maven` to build source code
+- To run a `main` function of a class `java -classpath .\target\classes\ dev.ducminhgd.numeric.Sum`.
+
 ## Day 2
 
 ### Problems
 
+From PoE:
 - List of Fibonacci number to N.
 - Count vowels in a string
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Fibo {
 
-    public static List<Integer> ListToN(int n) {
+    public static List<Integer> listToN(int n) {
         List<Integer> result = new ArrayList<Integer>();
         int prev = 0, next = 1, temp = 0;
         while (next <= n) {

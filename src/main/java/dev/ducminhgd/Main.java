@@ -12,16 +12,16 @@ public class Main {
         System.out.print("Input n: ");
 
         int n = Integer.parseInt(scanner.nextLine());
-        System.out.println("SumToN: " + Sum.SumToN(n));
-        System.out.println("SumOddToN: " + Sum.SumOddToN(n));
-        System.out.println("SumEvenToN: " + Sum.SumEvenToN(n));
+        System.out.println("SumToN: " + Sum.toN(n));
+        System.out.println("SumOddToN: " + Sum.oddToN(n));
+        System.out.println("SumEvenToN: " + Sum.evenToN(n));
 
-        System.out.println("Fibo.ListToN: " + Fibo.ListToN(n));
+        System.out.println("Fibo.ListToN: " + Fibo.listToN(n));
 
 
         System.out.print("Input a string: ");
         String s = scanner.nextLine();
-        System.out.println("Count.CountVowels: " + Count.CountVowels(s));
-        System.out.println("Count.CountVowels2: " + Count.CountVowels2(s));
+        System.out.println("Count.CountVowels: " + Count.vowels(s));
+        System.out.println("Count.CountVowels2: " + Count.vowels2(s));
     }
 }
